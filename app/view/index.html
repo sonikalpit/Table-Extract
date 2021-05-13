@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Table Extract</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=2">  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style-new.css">  
+  <link rel="stylesheet" href="css/style.css">  
+  <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+</head>
+
+
+<body>
+  <nav id = "top">
+        <p id="title">Table Extract PDF</p>
+  </nav>
+
+  <!-- <div class="body">
+      <div class="container">
+          <form action="/upload" method= "POST" enctype="multipart/form-data" >
+              <div class="text">
+                  Uplaod the Image 
+              </div>
+              
+              <div class="form-row">
+                  <div class="input-data">
+                      <label>Select the Image</label>
+                      <input id="files" type="file" name = "files" accept="image/*" required>
+                      <div class="underline"></div>
+                  </div>
+              </div>
+
+              <div class="form-row">
+                  <div class="input-data">
+                      <div class="inner"></div>
+                      <input type="submit" value="submit" onclick="">
+                       <button  id="btn" onclick="dateSelected()">Submit</button> 
+                  </div>
+              </div>                   
+                  
+              </div>
+          </form>
+      </div>   
+  </div> -->
+    
+  <p id="p"></p>
+
+
+  <div class="file-upload">
+    <form action="/upload" method="POST" enctype="multipart/form-data" >
+      <button class="file-upload-btn" type="button" onclick="$('.file-upload-input').trigger( 'click' )">Add PDF</button>
+
+      <div class="image-upload-wrap">
+        <input class="file-upload-input" type="file" onchange="readURL(this);" accept="image/*" required/>
+        <div class="drag-text">
+          <h3>Drag and drop a file or select add PDF</h3>
+        </div>
+      </div>
+      <div class="file-upload-content">
+        <img class="file-upload-image" src="#" alt="your image" />
+        <div class="image-title-wrap">
+          <button type="button" onclick="removeUpload()" class="remove-image">Remove <span class="image-title">Uploaded PDF</span></button>
+        </div>
+      </div>
+
+      <input class="file-upload-btn extract-btn" type="submit" value="Extract"></input>
+    </form>
+  </div>
+
+<script src="js/script.js" type="text/javascript" charset="utf-8" async defer></script>
+
+</body>
+
+</html>

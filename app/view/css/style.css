@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Montserrat';
+}
+
+nav { 
+    background: #5f8fc9;
+    height: 100%;
+    padding: 38px 0 38px 0;
+    text-align: center;
+    font-size: 50px;
+    line-height: 80px;
+    font-weight: bold;
+    color: #3c3d40;
+}
+
+.body  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* min-height: 100vh; */
+    padding: 40px;
+    /* background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%); */
+}
+
+
+.container{
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    width: 800px;
+    padding: 25px 40px 10px 40px;
+}
+
+.container .text {
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    color: #3c3d40;
+    /* background: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea ); */
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+}
+
+.container form {
+    padding: 30px 0 0 0 0;
+}
+
+.container form .form-row {
+    display: flex;
+    margin: 50px 0;
+}
+
+form .form-row .input-data {
+    width: 100%;
+    height: 40px;
+    margin: 0px 20px;
+    position: relative;
+
+}
+
+.input-data input, button {
+    display:block;
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+}
+
+
+.input-data label {
+    position: relative;
+    bottom: 0px;
+    font-size: 16px;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    font-size: 17px;
+}
+input .underline{
+    position: absolute;
+    bottom: 0px;
+    height: 2px;
+    width: 100%;
+    background: red;
+}
+
+
+
+/*parthiv
+
+*/
+.maincontent{
+  font-size: 1.5em;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+header .jumbotron {
+  height: 45vh;
+  margin-bottom: 0;
+  background: url(../images/background2.jpg) no-repeat 100% 5%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header .navbar-brand {
+  margin: auto;
+  padding: inherit;
+}
+
+header .nav-item {
+
+}
+
+#types .Types-item {
+  max-width: 45rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: inherit;
+  margin-bottom: inherit;
+}
+
+#types .Types-item .Types-link {
+   position: relative;
+   display: block;
+   margin: 0 auto;
+}
+
+.img-rounded {
+   max-width: 80%;
+   image-resolution:from-image;
+   width:  400px;
+   height: 250px;
+   border-radius: 70%;
+   margin-top: 25px;
+   margin-bottom: auto;
+}
+
+#types .img-rounded:hover {
+  transform: scaleY(-1);
+}
+
+#types .Types-names {
+  max-width: 80%;
+  padding: 1.5rem;
+  background-color: LightPink;
+}
+
+#types .Types-names-heading {
+  font-size: 1.5rem;
+  margin: auto;
+  text-align: center;
+
+}
+
+/*types-mart .mart-dialog {
+  margin: 1.5rem;
+  max-width: 100vw;
+}
+
+types-mart .mart-content {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+
+types-mart .mart-content h1 {
+  font-size: 2.5rem;
+  font-style: oblique;
+}
+
+types-mart .mart-content img {
+  margin-bottom: 2.5rem;
+}
+
+types-mart .close-mart {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.3rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.mart.fade .mart-dialog {
+  transition: transform 0.4s ease-out;
+  transform: translate(0,-45px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mart.fade .mart-dialog {
+    transition: none;
+  }
+} */
+
+
+a:link {
+  color: Black;
+}
+
+a:visited {
+  color: Red;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a:active {
+  color: Blue;
+}
